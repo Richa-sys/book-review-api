@@ -166,31 +166,6 @@ Search
 - GET /search/:query: Search for books by title or author.
   - Example: `/search/gatsby`
 
-  
-
-Example API Requests Using cURL
-
-- Sign Up a New User:
-   ```
-   curl -X POST http://localhost:5000/signup \
-     -H "Content-Type: application/json" \
-     -d '{"username":"user1","password":"password123"}'
-   ```
-
-- Login to Get JWT Token:
-   ```
-   curl -X POST http://localhost:5000/login \
-     -H "Content-Type: application/json" \
-     -d '{"username":"user1","password":"password123"}'
-   ```
-
-- Add a New Book (replace `<TOKEN>` with your JWT token):
-   ```
-   curl -X POST http://localhost:5000/books \
-     -H "Authorization: Bearer <TOKEN>" \
-     -H "Content-Type: application/json" \
-     -d '{"title":"The Great Gatsby","author":"F. Scott Fitzgerald","genre":"Fiction"}'
-   ```
 
   
 
