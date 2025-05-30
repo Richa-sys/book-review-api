@@ -166,6 +166,7 @@ Search
 - GET /search/:query: Search for books by title or author.
   - Example: `/search/gatsby`
 
+<<<<<<< HEAD
   
 
 Example API Requests Using cURL
@@ -191,6 +192,8 @@ Example API Requests Using cURL
      -H "Content-Type: application/json" \
      -d '{"title":"The Great Gatsby","author":"F. Scott Fitzgerald","genre":"Fiction"}'
    ```
+=======
+>>>>>>> 72ce1d88b9cd0e9561a6f6874df614793e131656
 
   
 
@@ -204,4 +207,8 @@ Design Decisions and Assumptions
   
 - Password Security: User passwords are hashed using bcrypt before being stored in the database.
   
+<<<<<<< HEAD
 - Performance Optimization: Pagination is implemented for both book listings and reviews to improve response times.
+=======
+- Performance Optimization: Pagination is implemented for both book listings and reviews to improve response times.
+>>>>>>> 72ce1d88b9cd0e9561a6f6874df614793e131656
